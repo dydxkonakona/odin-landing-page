@@ -70,6 +70,7 @@ body {
 
 .top-container .header .left-head .hero-second-text {
     margin-bottom: 8px;
+    text-align: justify;
 }
 
 .top-container .header .left-head button {
@@ -83,19 +84,13 @@ body {
     padding: 4px 20px;
 }
 
-.top-container .header .right-head {
-    border: 1px solid black;
-    background-color: gray;
+.right-head img {
+    object-fit: cover;
     width: 800px;
     height: 250px;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    border-radius: 5px;
+    border: 1px solid white;
 
-.right-head p {
-    margin: 0;
 }
 
 .information .information-header {
@@ -108,25 +103,32 @@ body {
 
 .information .information-images {
     display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 250px;
+    justify-content: space-between;
+    margin-bottom: 150px;
 }
 
 .information .information-images .info {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    text-align: center;
 }
 
-.information .information-images .info .card {
-    width: 200px;
-    height: 200px;
-    border: 6px solid #3882F6;
-    border-radius: 20px;
-    margin-bottom: 8px;
+.information .information-images .info .cat-name {
+    font-size: 28px;
+    color: #1F2937;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.information .information-images .info img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    border: 1px solid black;
 }
 
 .information .information-images .text {
-    text-align: center;
+    text-align: justify;
 }
 
 .quote {
@@ -147,6 +149,7 @@ body {
     color: #1F2937;;
     font-weight: 300;
     font-style: italic;
+    margin-bottom: 16px;
 }
 
 .quote .author {
